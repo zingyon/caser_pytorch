@@ -16,7 +16,7 @@ class DataArguments:
         default="leave_one_out", metadata={"help": "데이터 스플릿 방식"} # 
     )
     input_files: str=field(
-        default="/Users/choijinkyeong/Workspace/Caser/data/10core/Amazon_Video_Games.txt", metadata={"help": "데이터 원천 파일"}
+        default=None, metadata={"help": "데이터 원천 파일"}
     )
     min_rating: int=field(
         default=4, metadata={"help": "최소 평점"}
